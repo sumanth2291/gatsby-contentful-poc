@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "gatsby-contentful-poc",
+    description:
+      "This project is a POC on how to make a webpage with Contenful, Gatsby, Reactjs and Material UI",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",

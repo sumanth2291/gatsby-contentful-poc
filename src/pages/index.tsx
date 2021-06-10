@@ -1,11 +1,23 @@
 import React from "react";
-import { PageProps } from "gatsby";
+import { PageProps, graphql, useStaticQuery } from "gatsby";
 
-const IndexPage = (props: PageProps) => {
+const IndexPage = () => {
+  const { site } = useStaticQuery(graphql`
+    {
+      site {
+        siteMetadata {
+          title
+          description
+        }
+      }
+    }
+  `);
+
+  const { title, description } = site.siteMetadata;
   return (
     <>
-      <h1>Index Page:</h1>
-      <p>{props.path}</p>
+      <h1>Index Page: {title}</h1>
+      <p>{description}</p>
     </>
   );
 };
