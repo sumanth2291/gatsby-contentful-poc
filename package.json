@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-contentful-poc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This project is a POC on how to make a webpage with Contenful, Gatsby, Reactjs and Material UI",
+  "author": "Sumanth Ramanujapuram",
+  "keywords": [
+    "Gatsby",
+    "Contentful",
+    "Reactjs",
+    "MaterialUI"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumanth2291/gatsby-contentful-poc.git"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.6.2",
+    "gatsby-plugin-gatsby-cloud": "^2.7.0",
+    "gatsby-plugin-google-analytics": "^3.7.0",
+    "gatsby-plugin-image": "^1.7.0",
+    "gatsby-plugin-react-helmet": "^4.7.0",
+    "gatsby-plugin-sharp": "^3.7.0",
+    "gatsby-plugin-sitemap": "^4.3.0",
+    "gatsby-source-filesystem": "^3.7.0",
+    "gatsby-transformer-sharp": "^3.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sumanth2291/gatsby-contentful-poc/issues"
+  },
+  "homepage": "https://github.com/sumanth2291/gatsby-contentful-poc#readme"
+}
