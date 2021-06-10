@@ -38,5 +38,10 @@
   "bugs": {
     "url": "https://github.com/sumanth2291/gatsby-contentful-poc/issues"
   },
-  "homepage": "https://github.com/sumanth2291/gatsby-contentful-poc#readme"
+  "homepage": "https://github.com/sumanth2291/gatsby-contentful-poc#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7"
+  }
 }
